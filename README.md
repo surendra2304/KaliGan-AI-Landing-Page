@@ -1,6 +1,7 @@
 # 🚀 KaliGan AI — Landing Page
 
-> **Live Demo:** [Deploying to Vercel...]
+> **Live Demo:** [https://kaligan-ai-landing-page.vercel.app](https://kaligan-ai-landing-page.vercel.app)
+
 
 **KaliGan AI** deploys human-like AI employees for calls, chat, scheduling, and back-office operations — working 24/7 with zero downtime.
 
