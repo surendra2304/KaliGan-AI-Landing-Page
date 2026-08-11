@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D5D4F"/>
+      <stop offset="100%" stop-color="#0E332B"/>
+    </linearGradient>
+    <linearGradient id="kGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#56E3B8"/>
+      <stop offset="100%" stop-color="#2E8B57"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#56E3B8"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded box -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  <!-- Inner border ring -->
+  <rect x="24" y="24" width="464" height="464" rx="108" fill="none" stroke="#2E8B57" stroke-width="12" stroke-opacity="0.5"/>
+  
+  <!-- Stylized K for KaliGan AI -->
+  <g transform="translate(16, 0)">
+    <!-- Vertical Pillar -->
+    <rect x="130" y="110" width="60" height="292" rx="20" fill="url(#goldGrad)" />
+    
+    <!-- Top Diagonal Arm -->
+    <path d="M 185 245 L 325 115 C 340 100, 365 110, 365 130 L 365 165 C 365 178, 355 188, 342 198 L 225 295 Z" fill="url(#kGrad)" />
+    
+    <!-- Bottom Diagonal Arm -->
+    <path d="M 210 230 L 340 375 C 352 388, 365 390, 365 400 L 335 400 C 320 400, 308 392, 298 380 L 180 250 Z" fill="url(#kGrad)" />
+    
+    <!-- Glowing AI Node Circle -->
+    <circle cx="365" cy="130" r="28" fill="#56E3B8"/>
+    <circle cx="365" cy="130" r="14" fill="#FFFFFF"/>
+  </g>
+</svg>
